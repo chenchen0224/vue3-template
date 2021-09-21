@@ -1,17 +1,18 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+  <!-- <Reactve /> -->
+  <WhyRef />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+// import Reactve from '@/components/Reactve.vue'
+import WhyRef from '@/components/WhyRef.vue';
 
 export default defineComponent({
   name: 'Home',
   components: {
-    HelloWorld,
+    // Reactve,
+    WhyRef,
   },
 });
 </script>
