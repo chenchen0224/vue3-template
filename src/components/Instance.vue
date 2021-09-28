@@ -1,23 +1,12 @@
 <template>
-  <!-- <Reactve /> -->
-  <!-- <WhyRef /> -->
   <div ref="test">test</div>
-  <VModel />
 </template>
 
 <script lang="ts">
 import { defineComponent, getCurrentInstance, onMounted } from 'vue'
-// import Reactve from '@/components/Reactve.vue'
-// import WhyRef from '@/components/WhyRef.vue'
-import VModel from '@/components/v-model/index.vue'
 
 export default defineComponent({
-  name: 'Home',
-  components: {
-    // Reactve,
-    // WhyRef,
-    VModel
-  },
+  name: 'Instance',
   data() {
     return {
       a: 1
